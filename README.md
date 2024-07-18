@@ -1,6 +1,6 @@
-# app_flutter_riverpod
+# Riverpod Generator, freezed y json_serializable 
 
-A new Flutter project.
+Este repositorio muestra cómo integrar y utilizar Riverpod Generator, Freezed y json_serializable en un proyecto Flutter. Estas herramientas facilitan la gestión del estado, la generación de clases inmutables y la serialización/deserialización de JSON, respectivamente.
 
 ## Paso 1: Añadir Dependencias
 
