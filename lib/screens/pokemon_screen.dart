@@ -55,7 +55,7 @@ class _PkemonScreenState extends State<PkemonScreen> {
                 );
               },
               error: (error, stackTrace) =>
-                  Text('Ups, ocurrio un error: \n$error'),
+                  Text('Ups, an error occurred: \n$error'),
               loading: () => const CircularProgressIndicator(),
             ),
           ),
