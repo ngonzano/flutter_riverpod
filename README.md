@@ -1,8 +1,8 @@
-# Riverpod Generator, freezed y json_serializable 
+# Riverpod: code generation, freezed y json_serializable 
 
-Este repositorio muestra cómo integrar y utilizar Riverpod Generator, Freezed y json_serializable en un proyecto Flutter. Estas herramientas facilitan la gestión del estado, la generación de clases inmutables y la serialización/deserialización de JSON, respectivamente.
+This repository demonstrates how to integrate and use Riverpod with code generation, Freezed, and json_serializable in a Flutter project. These tools facilitate state management, the generation of immutable classes, and JSON serialization/deserialization, respectively.
 
-## Paso 1: Añadir Dependencias
+## Step 1: Add Dependencies
 
 dart pub add riverpod
 dart pub add flutter_riverpod
@@ -21,15 +21,8 @@ dart pub add dev:json_serializable
 
 flutter pub add fluttertoast
 
-## Paso 2: Generar el Código
+## Step 2: Generate the auto-generated code
 
-ejecutar en la terminal:
-dart run build_runner watch
-
-## Paso 3: Crear el Proveedor con Código Autogenerado
-
-revisar archivo counter_provider.dart
-
-## Paso 4: Crear la Interfaz de Usuario
-
+run in the terminal to generate code
+### dart run build_runner watch
 
