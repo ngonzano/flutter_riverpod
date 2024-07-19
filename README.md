@@ -126,6 +126,15 @@ activity.when(
    - **Parameters**: It receives the error and optionally a stack trace.
    - **Usage**: You can use this to display an error message or handle the error gracefully.
 
+#### 
+`ref.read` is a method used to access the current state or value of a provider without subscribing to updates.
+
+```dart
+    ref.read(counterProvider.notifier).decrement()
+```
+
+In Riverpod, the `.notifier` property is used to access the state notifier instance associated with a provider. This is particularly useful when you are working with StateNotifierProvider or ChangeNotifierProvider and need to interact directly with the state management logic of these providers.
+
 ## Documentation
 
 riverpod official page [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
