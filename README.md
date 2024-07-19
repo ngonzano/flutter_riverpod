@@ -95,6 +95,7 @@ The `activity` variable is used to manage and access the state of asynchronous d
 final AsyncValue<Activity> activity = ref.watch(activityProvider(idPokemon: count));
 ```
 
+#### Use the activity.when
 The activity.when method is used to handle different states of an AsyncValue in Riverpod. It provides a way to specify what should be displayed or how the application should react depending on whether the asynchronous data is still loading, has been successfully retrieved, or encountered an error.
 
 ```dart
@@ -126,7 +127,7 @@ activity.when(
    - **Parameters**: It receives the error and optionally a stack trace.
    - **Usage**: You can use this to display an error message or handle the error gracefully.
 
-#### 
+#### Use the ref.read
 `ref.read` is a method used to access the current state or value of a provider without subscribing to updates.
 
 ```dart
