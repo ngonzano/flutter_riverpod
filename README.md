@@ -3,7 +3,7 @@
 This repository demonstrates how to integrate and use Riverpod with code generation, Freezed, and json_serializable in a Flutter project. These tools facilitate state management, the generation of immutable classes, and JSON serialization/deserialization, respectively.
 
 ## Step 1: Add Dependencies
-
+```bash
 dart pub add riverpod
 dart pub add flutter_riverpod
 dart pub add riverpod_annotation
@@ -20,7 +20,7 @@ dart pub add freezed
 dart pub add dev:json_serializable
 
 flutter pub add fluttertoast
-
+```
 ## Step 2: Generate the auto-generated code
 
 run in the terminal to generate code
