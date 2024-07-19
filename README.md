@@ -78,6 +78,13 @@ class Activity with _$Activity {
 •	activity.freezed.dart: Contains the generated implementation of the Activity class, including equality, copyWith, and other utility methods.
 •	activity.g.dart: Contains the generated fromJson and toJson methods, facilitating the conversion between JSON and the Activity class.
 
+#### How It All Works Together
+
+1.	Defining the Model: Using @freezed, you define an immutable data model with various fields and a constructor.
+2.	Generating Code: The build_runner tool generates the necessary code for immutability, serialization, and other utilities in the specified part files.
+3.	Serialization: json_serializable generates fromJson and toJson methods, making it easy to convert JSON data to Dart objects and vice versa.
+4.	Immutability and Safety: The generated _Activity class ensures that the model is immutable, and freezed provides methods for safely copying and modifying instances.
+
 ## Documentation
 
 Official website [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
