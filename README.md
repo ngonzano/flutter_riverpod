@@ -213,8 +213,8 @@ In Riverpod, the `.notifier` property is used to access the state notifier insta
 ## Documentation
 riverpod official page [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
 
-# My Video de la DEMO
+# DEMO
 
-This is a link to my video:
+The video shows how an API is consumed, at the beginning of the query a loading appears, then when you query again it no longer appears thanks to the `@Riverpod(keepAlive: true)` that saves it in memory even if it is not actively used:
 
 ![Demo video](image_git/video..gif)
