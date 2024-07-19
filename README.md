@@ -111,18 +111,20 @@ activity.when(
 
 #### Breakdown of the when Method
 
-1.	**data**:
-        -   **Purpose**: This callback is called when the AsyncValue contains the successfully fetched data.
-        -   Parameter: It receives the data (an Activity object in this case) as an argument.
-        -   Usage: You can use this to build widgets that display the data to the user, such as showing the activity name.
-2.	loading:
-        • Purpose: This callback is called while the asynchronous operation is still in progress.
-        • Parameter: It does not receive any arguments.
-        • Usage: You can use this to show a loading indicator or some placeholder content to inform the user that data is being fetched.
-3.	error:
-        • Purpose: This callback is called if there is an error during the asynchronous operation.
-        • Parameters: It receives the error and optionally a stack trace.
-        • Usage: You can use this to display an error message or handle the error gracefully.
+1. **data**:
+   - **Purpose**: This callback is called when the `AsyncValue` contains the successfully fetched data.
+   - **Parameter**: It receives the data (an `Activity` object in this case) as an argument.
+   - **Usage**: You can use this to build widgets that display the data to the user, such as showing the activity name.
+
+2. **loading**:
+   - **Purpose**: This callback is called while the asynchronous operation is still in progress.
+   - **Parameter**: It does not receive any arguments.
+   - **Usage**: You can use this to show a loading indicator or some placeholder content to inform the user that data is being fetched.
+
+3. **error**:
+   - **Purpose**: This callback is called if there is an error during the asynchronous operation.
+   - **Parameters**: It receives the error and optionally a stack trace.
+   - **Usage**: You can use this to display an error message or handle the error gracefully.
 
 ## Documentation
 
