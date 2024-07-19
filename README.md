@@ -217,4 +217,4 @@ riverpod official page [here](https://riverpod.dev/es/docs/concepts/about_code_g
 
 This is a link to my video:
 
-[Watch the video](https://acortar.link/wesV58)
+[Watch the video](image_git/video..gif)
