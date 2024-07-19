@@ -28,3 +28,6 @@ run in the terminal to generate code
 dart run build_runner watch
 ```
 
+## Documentation
+
+Official website [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
