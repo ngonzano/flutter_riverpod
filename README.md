@@ -89,7 +89,7 @@ This setup provides a robust, type-safe way to handle data models, especially wh
 
 ## Step 4: manage and access status
 
-The activity variable is used to manage and access the state of asynchronous data.
+The `activity` variable is used to manage and access the state of asynchronous data.
 
 ```dart
 final AsyncValue<Activity> activity = ref.watch(activityProvider(idPokemon: count));
@@ -128,4 +128,4 @@ activity.when(
 
 ## Documentation
 
-Official website [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
+riverpod official page [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
