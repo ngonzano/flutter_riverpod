@@ -30,34 +30,35 @@ class _PkemonScreenState extends State<PkemonScreen> {
           ),
           body: Center(
             child: activity.when(
-                data: (data) {
-                  final showdown = data.sprites?['other']['showdown'];
-                  final officialArtwork =
-                      data.sprites?['other']['official-artwork'];
-                  return Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      const SizedBox(height: 20),
-                      CachedNetworkImage(
-                        imageUrl: showdown['front_default'],
-                        fit: BoxFit.fill,
-                      ),
-                      Text(
-                        '${data.id} - Name: ${data.name}',
-                        style: const TextStyle(
-                            fontSize: 25, fontWeight: FontWeight.bold),
-                      ),
-                      CachedNetworkImage(
-                        imageUrl: officialArtwork['front_default'],
-                        fit: BoxFit.fill,
-                      ),
-                      const SizedBox(height: 50),
-                    ],
-                  );
-                },
-                error: (error, stackTrace) =>
-                    Text('Ups, ocurrio un error: \n$error'),
-                loading: () => const CircularProgressIndicator()),
+              data: (data) {
+                final showdown = data.sprites?['other']['showdown'];
+                final officialArtwork =
+                    data.sprites?['other']['official-artwork'];
+                return Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const SizedBox(height: 20),
+                    CachedNetworkImage(
+                      imageUrl: showdown['front_default'],
+                      fit: BoxFit.fill,
+                    ),
+                    Text(
+                      '${data.id} - Name: ${data.name}',
+                      style: const TextStyle(
+                          fontSize: 25, fontWeight: FontWeight.bold),
+                    ),
+                    CachedNetworkImage(
+                      imageUrl: officialArtwork['front_default'],
+                      fit: BoxFit.fill,
+                    ),
+                    const SizedBox(height: 50),
+                  ],
+                );
+              },
+              error: (error, stackTrace) =>
+                  Text('Ups, ocurrio un error: \n$error'),
+              loading: () => const CircularProgressIndicator(),
+            ),
           ),
           floatingActionButton: Row(
             mainAxisAlignment: MainAxisAlignment.end,
