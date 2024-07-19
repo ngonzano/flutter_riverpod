@@ -42,7 +42,7 @@ class _PkemonScreenState extends State<PkemonScreen> {
                       fit: BoxFit.fill,
                     ),
                     Text(
-                      '${data.id} - Name: ${data.name}',
+                      '${data.id} - ${data.name}',
                       style: const TextStyle(
                           fontSize: 25, fontWeight: FontWeight.bold),
                     ),
