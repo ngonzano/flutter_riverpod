@@ -212,3 +212,9 @@ In Riverpod, the `.notifier` property is used to access the state notifier insta
 
 ## Documentation
 riverpod official page [here](https://riverpod.dev/es/docs/concepts/about_code_generation)
+
+# My Video de la DEMO
+
+This is a link to my video:
+
+[Watch the video](image_git/riverpod_freezed_json.mp4)
