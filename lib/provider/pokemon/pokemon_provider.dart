@@ -19,13 +19,13 @@ Future<Activity> activity(ActivityRef ref, {int idPokemon = 1}) async {
 @Riverpod(keepAlive: true)
 class Counter extends _$Counter {
   @override
-  int build() => 1; // init state
+  int build() => 1; // Estado inicial
 
   int increment() {
     state++;
     ref.invalidate(activityProvider);
     return state;
-  }
+  } // Incrementar el contador
 
   int decrement() {
     state--;
@@ -40,5 +40,5 @@ class Counter extends _$Counter {
 
     ref.invalidate(activityProvider);
     return state;
-  }
+  } // Decrementar el contador
 }

@@ -3,6 +3,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'activity.freezed.dart';
 part 'activity.g.dart';
 
+///
 @freezed
 class Activity with _$Activity {
   factory Activity({
@@ -13,6 +14,8 @@ class Activity with _$Activity {
     required String name,
     int? participants,
     double? price,
+    double? weight,
+    double? height,
     Map? sprites,
   }) = _Activity;
 

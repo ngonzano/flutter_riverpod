@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Riverpod code generation',
+      title: 'Flutter Riverpod',
       debugShowCheckedModeBanner: false,
       home: PkemonScreen(),
     );
